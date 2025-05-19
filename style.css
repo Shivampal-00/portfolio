@@ -96,6 +96,19 @@ transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s 
 	 background-size: 80px;}
 
 
+ .card-10{
+	/* background-image: url(https://ionicframework.com/img/getting-started/theming-card.png); */
+	   background-repeat: no-repeat;
+	 background-position: right;
+	 background-size: 80px;}
+
+
+
+
+
+
+
+
  @media (max-width: 991px) {
 	body {
 	  padding: 15px;
