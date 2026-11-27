@@ -33,11 +33,7 @@ const figmaProjects = [
   { name: 'Koescore Dashboard', description: 'Analytics dashboard with data visualization', url: 'https://www.figma.com/design/DhvZW6jHBW8Ztt0dhYxm0A/Koescore?node-id=0-1&t=H1q4INOH8NiRCBYZ-1' },
   { name: 'Attendance System', description: 'Employee attendance tracking interface', url: 'https://www.figma.com/design/s1gelSnDigShiMr90MOI0K/Attendance-and-Koekraft-and-Koescore?node-id=0-1&t=d9Hmr0fK1QGRFoZF-1' },
   { name: 'Koescore Test Platform', description: 'Student test series platform UI', url: 'https://www.figma.com/design/DhvZW6jHBW8Ztt0dhYxm0A/Koescore?node-id=0-1' },
-  { name: 'House of Qutone – Premium Tile & Surface Design Website', description: 'Created a premium, modern website showcasing elegant tile collections with refined visuals and seamless navigation.', url: 'https://www.figma.com/proto/5qX5SVf20SI6HYQt5eKJKT/Untitled?t=cjmC4rHTVPKQFrx7-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-2' }
-
-
-
-];
+ ];
 
 const graphicDesigns = [
   { src: 'images/A clean car is a happy car.jpg', alt: 'A clean car is a happy car design' },
