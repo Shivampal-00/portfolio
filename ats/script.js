@@ -27,14 +27,17 @@ const skills = [
   { name: 'Figma', level: 90 }
   
 ];
-
 const figmaProjects = [
+  { 
+    name: 'House of Qutone', 
+    description: 'Premium tile collection website with elegant visuals and seamless navigation.', 
+    url: 'https://www.figma.com/proto/xTDEiPrVAawhagqzXM0Bq5/House-of-qutone?node-id=28-166' 
+  },
   { name: 'Aska Equipments', description: 'Industrial equipment showcase design', url: 'https://www.figma.com/design/VrO8ovqRUZSWudWHTEEE5U/Aska?node-id=0-1&t=hEzXruUXI2pLDAAX-1' },
   { name: 'Koescore Dashboard', description: 'Analytics dashboard with data visualization', url: 'https://www.figma.com/design/DhvZW6jHBW8Ztt0dhYxm0A/Koescore?node-id=0-1&t=H1q4INOH8NiRCBYZ-1' },
   { name: 'Attendance System', description: 'Employee attendance tracking interface', url: 'https://www.figma.com/design/s1gelSnDigShiMr90MOI0K/Attendance-and-Koekraft-and-Koescore?node-id=0-1&t=d9Hmr0fK1QGRFoZF-1' },
-  { name: 'Koescore Test Platform', description: 'Student test series platform UI', url: 'https://www.figma.com/design/DhvZW6jHBW8Ztt0dhYxm0A/Koescore?node-id=0-1' },
- ];
-
+  { name: 'Koescore Test Platform', description: 'Student test series platform UI', url: 'https://www.figma.com/design/DhvZW6jHBW8Ztt0dhYxm0A/Koescore?node-id=0-1' }
+];
 const graphicDesigns = [
   { src: 'images/A clean car is a happy car.jpg', alt: 'A clean car is a happy car design' },
   { src: 'images/DT microworld 2.jpg', alt: 'DT microworld graphic design' },
