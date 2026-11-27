@@ -36,7 +36,27 @@ const figmaProjects = [
   { name: 'Aska Equipments', description: 'Industrial equipment showcase design', url: 'https://www.figma.com/design/VrO8ovqRUZSWudWHTEEE5U/Aska?node-id=0-1&t=hEzXruUXI2pLDAAX-1' },
   { name: 'Koescore Dashboard', description: 'Analytics dashboard with data visualization', url: 'https://www.figma.com/design/DhvZW6jHBW8Ztt0dhYxm0A/Koescore?node-id=0-1&t=H1q4INOH8NiRCBYZ-1' },
   { name: 'Attendance System', description: 'Employee attendance tracking interface', url: 'https://www.figma.com/design/s1gelSnDigShiMr90MOI0K/Attendance-and-Koekraft-and-Koescore?node-id=0-1&t=d9Hmr0fK1QGRFoZF-1' },
-  { name: 'Koescore Test Platform', description: 'Student test series platform UI', url: 'https://www.figma.com/design/DhvZW6jHBW8Ztt0dhYxm0A/Koescore?node-id=0-1' }
+  { name: 'Koescore Test Platform', description: 'Student test series platform UI', url: 'https://www.figma.com/design/DhvZW6jHBW8Ztt0dhYxm0A/Koescore?node-id=0-1' },
+  {
+    name: 'DFlare.AI',
+    description: 'Enterprise AI cloud platform UI for secure, scalable AI/ML workloads across on-premise, private cloud, and hybrid environments.',
+    url: 'https://www.figma.com/proto/tx7T61lHB0WKLlJoYofhj7/Untitled?node-id=1-4853&p=f&t=7EACLBpJWpVW0PXi-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
+  },
+  {
+    name: 'Cogneet',
+    description: 'Digital agency website UI showcasing creative work, strategic solutions, and seamless digital experiences.',
+    url: 'https://www.figma.com/proto/5RsXaa4hYKKwXfA1gjhmNk/Untitled?node-id=1-2&p=f&t=7EACLBpJWpVW0PXi-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
+  },
+  {
+    name: 'Univo Tech',
+    description: 'High-performance IT infrastructure website UI for RAM, SSDs, hard drives, and graphics card solutions.',
+    url: 'https://www.figma.com/proto/HRmROe86mDQeM0IlIBYagt/Untitled?node-id=22-411&p=f&t=ltA9dTBkZkk9q2E1-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
+  },
+  {
+    name: 'Creation Construction Limited',
+    description: 'Construction and renovation website UI highlighting professional services, project galleries, and experienced craftsmanship.',
+    url: 'https://www.figma.com/proto/1VMsdMt8UbN1x0PavhGo6R/Untitled?node-id=2001-70&p=f&t=qE1sRlheBG7WFlWL-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
+  }
 ];
 const graphicDesigns = [
   { src: 'images/A clean car is a happy car.jpg', alt: 'A clean car is a happy car design' },
@@ -103,7 +123,7 @@ figmaGrid.innerHTML = figmaProjects.map(project => `
       <div class="design-icon">${icon('globe')}</div>
       <h4>${project.name}</h4>
       <p>${project.description}</p>
-      <a href="${project.url}">View Design ${icon('external-link')}</a>
+      <a href="${project.url}" target="_blank" rel="noopener noreferrer">View Design ${icon('external-link')}</a>
     </article>
   </div>
 `).join('');
